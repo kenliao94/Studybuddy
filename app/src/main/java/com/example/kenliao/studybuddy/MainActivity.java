@@ -34,11 +34,15 @@ public class MainActivity extends AppCompatActivity {
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
 
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
+        //decide what to do with different button clicks
+        switch(id){
+            case R.id.create_group:
+                return true;
+            case R.id.view_group:
+                return true;
+            case R.id.account_setting:
+                return true;
         }
-
         return super.onOptionsItemSelected(item);
     }
 
