@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.TextView;
+import android.content.Intent;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -37,6 +38,8 @@ public class MainActivity extends AppCompatActivity {
         //decide what to do with different button clicks
         switch(id){
             case R.id.create_group:
+                Intent goCreateGroup = new Intent(this, create_group.class);
+                this.startActivity(goCreateGroup);
                 return true;
             case R.id.view_group:
                 return true;

@@ -1,6 +1,7 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.kenliao.studybuddy.create_group">
     <item android:id="@+id/create_group" android:title="@string/create_group"
         app:showAsAction="never"/>
     <item android:id="@+id/view_group" android:title="@string/view_group"

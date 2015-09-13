@@ -3,4 +3,8 @@
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="greeting">This is my own activity</string>
+    <string name="view_group">View Study Groups</string>
+    <string name="create_group">Create Study Groups</string>
+    <string name="account_setting">Account Setting</string>
+    <string name="title_activity_create_group">Create Group</string>
 </resources>
