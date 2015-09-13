@@ -20,6 +20,10 @@
             android:name=".create_group"
             android:label="@string/title_activity_create_group" >
         </activity>
+        <activity
+            android:name=".viewGroup"
+            android:label="@string/title_viewGroup" >
+        </activity>
     </application>
 
 </manifest>

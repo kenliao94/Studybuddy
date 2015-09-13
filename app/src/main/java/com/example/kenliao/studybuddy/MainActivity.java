@@ -40,11 +40,13 @@ public class MainActivity extends AppCompatActivity {
             case R.id.create_group:
                 Intent goCreateGroup = new Intent(this, create_group.class);
                 this.startActivity(goCreateGroup);
-                return true;
+                break;
             case R.id.view_group:
-                return true;
+                Intent goCreateGroup1 = new Intent(this, viewGroup.class);
+                this.startActivity(goCreateGroup1);
+                break;
             case R.id.account_setting:
-                return true;
+                break;
         }
         return super.onOptionsItemSelected(item);
     }
